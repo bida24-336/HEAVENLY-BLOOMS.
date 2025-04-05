@@ -34,7 +34,7 @@ header {
 
 .shop-name {
   font-size: 2rem;
-  color: #c2185b;
+  color: #ffffff; /* White color for text */
 }
 
 .shelly-volante-bold {

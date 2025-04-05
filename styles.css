@@ -8,12 +8,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fff0f5; /* soft baby pink */
-  color: #333;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #333333; /* Dark grey background */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +51,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #555;
+  color: #ddd; /* Light grey for text */
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -92,7 +92,7 @@ nav a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 40px 60px;
-  background: linear-gradient(to right, #fce4ec, #f8bbd0);
+  background: linear-gradient(to right, #555555, #333333); /* Grey gradient background */
   flex-wrap: wrap;
 }
 
@@ -102,12 +102,12 @@ nav a:hover {
 
 .hero-text h1 {
   font-size: 3rem;
-  color: #880e4f;
+  color: #ffffff; /* White text */
 }
 
 .hero-text p {
   font-size: 1.2rem;
-  color: #4a4a4a;
+  color: #dddddd; /* Light grey text */
 }
 
 .hero-image img,
@@ -127,13 +127,13 @@ nav a:hover {
 
 .bestsellers {
   padding: 50px 40px;
-  background-color: #fff;
+  background-color: #444444; /* Dark grey background */
   text-align: center;
 }
 
 .bestsellers h2 {
   font-size: 2rem;
-  color: #ad1457;
+  color: #ffffff; /* White text */
   margin-bottom: 30px;
 }
 
@@ -151,7 +151,7 @@ nav a:hover {
 
 footer {
   padding: 20px;
-  background-color: #fce4ec;
+  background-color: #333333; /* Dark grey background */
   text-align: center;
 }
 
@@ -160,7 +160,7 @@ footer {
   justify-content: center;
   gap: 15px;
   font-size: 18px;
-  color: #880e4f;
+  color: #ffffff; /* White icons */
 }
 
 .social-icon:hover {
